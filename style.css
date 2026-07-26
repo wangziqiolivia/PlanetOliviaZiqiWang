@@ -2,8 +2,24 @@ img {
     width: 200px;
 }
 body{
+    background-color:rgb(243, 202, 241);
+}
+nav{
+    background-color:aqua;
+    text-align: center;
+    border: 10px solid rgb(231, 238, 241);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.intro{
     text-align: center;
     font-family: 'Arial';
     background: rgb(180, 220, 225);
     color: rgb(44, 25, 124);
+}
+
+#text{
+    font-size: 30px;
+    color:rgb(246, 250, 145);
+    text-align: center;
 }
