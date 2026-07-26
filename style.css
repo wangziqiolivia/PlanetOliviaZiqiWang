@@ -10,10 +10,12 @@ body{
 nav{
     background-color:rgba(246, 243, 225, 0.8);
     text-align: center;
-    border: 7px solid rgb(231, 238, 241);
+    border: 7px solid rgb(231, 238, 241,0.5);
     margin-bottom: 10px;
     border-radius: 6px;
     position: fixed;
+    margin-right: 10px;
+    right:0;
 }
 .title{
     text-align: center;
