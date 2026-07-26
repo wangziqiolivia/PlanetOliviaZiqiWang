@@ -2,24 +2,41 @@ img {
     width: 200px;
 }
 body{
-    background-color:rgb(243, 202, 241);
+    background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 nav{
-    background-color:aqua;
+    background-color:rgba(246, 243, 225, 0.8);
     text-align: center;
-    border: 10px solid rgb(231, 238, 241);
+    border: 7px solid rgb(231, 238, 241);
     margin-bottom: 10px;
     border-radius: 6px;
+    position: fixed;
+}
+.title{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(235, 233, 238);
+    font-size:15px;
+    padding:6px;
+    border-bottom: 3px rgb(187, 187, 249) dotted;
+ 
 }
 .intro{
     text-align: center;
-    font-family: 'Arial';
-    background: rgb(180, 220, 225);
-    color: rgb(44, 25, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(9, 29, 47,0.5);
+    padding:10px;
+    border-radius:6px;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    padding:10px;
+    border-radius:6px;
+    background-color: rgba(4, 17, 30, 0.5);
 }
 
-#text{
-    font-size: 30px;
-    color:rgb(246, 250, 145);
-    text-align: center;
-}
